@@ -1,0 +1,21 @@
+﻿{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ai-frame/types": ["packages/types/src"],
+      "@ai-frame/domain": ["packages/domain/src"],
+      "@ai-frame/infra": ["packages/infra/src"],
+      "@ai-frame/ui": ["packages/ui/src"],
+      "@ai-frame/plugin-host": ["packages/plugin-host/src"],
+      "@ai-frame/config/*": ["packages/config/*"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "expo": {
+    "name": "AI Frame",
+    "slug": "ai-frame",
+    "scheme": "aiframe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "51.0.0",
+    "platforms": ["ios", "android"],
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}

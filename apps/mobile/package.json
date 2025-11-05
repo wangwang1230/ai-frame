@@ -1,0 +1,23 @@
+﻿{
+  "name": "mobile",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "lint": "echo 'Use web lint'"
+  },
+  "dependencies": {
+    "@ai-frame/domain": "workspace:*",
+    "@ai-frame/types": "workspace:*",
+    "expo": "^51.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "typescript": "^5.4.5"
+  }
+}

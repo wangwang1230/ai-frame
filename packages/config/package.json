@@ -1,0 +1,13 @@
+{
+  "name": "@ai-frame/config",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tailwind-preset": "./tailwind/tailwind-preset.cjs",
+    "./eslint": "./eslint/index.cjs"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}
