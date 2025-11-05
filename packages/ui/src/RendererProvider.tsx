@@ -1,4 +1,4 @@
-﻿import { createContext, useContext, type ReactNode } from 'react'
+import { createContext, useContext, type ReactNode } from 'react'
 import type { Block, BlockType } from '@ai-frame/types'
 import { TextBlockRenderer } from './renderers/TextBlockRenderer'
 import { CodeBlockRenderer } from './renderers/CodeBlockRenderer'

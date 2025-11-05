@@ -1,4 +1,4 @@
-﻿import type { Block } from '@ai-frame/types'
+import type { Block } from '@ai-frame/types'
 import { memo } from 'react'
 
 export const ImageBlockRenderer = memo(({ block }: { block: Block }) => {

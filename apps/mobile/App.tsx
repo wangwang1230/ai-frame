@@ -1,4 +1,4 @@
-﻿import { StatusBar } from 'expo-status-bar'
+import { StatusBar } from 'expo-status-bar'
 import { memo, useCallback } from 'react'
 import { SafeAreaView, StyleSheet, Text, TouchableOpacity, View, FlatList } from 'react-native'
 import { useStore } from 'zustand'

@@ -1,4 +1,4 @@
-﻿export type Role = 'system' | 'user' | 'assistant' | 'tool'
+export type Role = 'system' | 'user' | 'assistant' | 'tool'
 export type MessageStatus = 'pending' | 'streaming' | 'done' | 'failed'
 export type ToolCallStatus = 'pending' | 'running' | 'done' | 'failed'
 export type BlockType =

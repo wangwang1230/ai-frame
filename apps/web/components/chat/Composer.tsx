@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useState, type KeyboardEvent, type ReactNode } from 'react'
 import { Image, Mic, Paperclip, Send, Wand2 } from 'lucide-react'

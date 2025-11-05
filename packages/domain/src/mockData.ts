@@ -1,4 +1,4 @@
-﻿import type { Message, Session } from '@ai-frame/types'
+import type { Message, Session } from '@ai-frame/types'
 import { nanoid } from 'nanoid'
 
 export const buildMockData = () => {

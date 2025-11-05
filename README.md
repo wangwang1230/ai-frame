@@ -1,4 +1,4 @@
-﻿# AI Frame
+# AI Frame
 
 打造「豆包客户端」级别体验的跨端前端架构（Web / Mobile / Desktop），覆盖多会话聊天、流式回复、插件工具链、富媒体、多模态与导出分享等能力。项目采用多包工作区（Turborepo + pnpm），抽象 Domain/Infra 层以共享核心状态机与服务逻辑，再为不同终端提供 UI 壳。
 

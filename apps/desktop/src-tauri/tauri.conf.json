@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://raw.githubusercontent.com/tauri-apps/tauri/v1/schema.json",
   "build": {
     "beforeDevCommand": "pnpm --filter desktop exec vite dev",

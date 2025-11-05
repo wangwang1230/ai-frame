@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useMemo, type ReactNode } from 'react'
 import { MessageSquare, Plus, Search, Sparkles } from 'lucide-react'

@@ -1,4 +1,4 @@
-﻿const root = document.getElementById('root') as HTMLDivElement
+const root = document.getElementById('root') as HTMLDivElement
 const targetUrl = import.meta.env.VITE_SHELL_URL ?? 'http://localhost:3000'
 
 root.innerHTML = 

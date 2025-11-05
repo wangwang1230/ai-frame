@@ -1,4 +1,4 @@
-﻿import type { Block } from '@ai-frame/types'
+import type { Block } from '@ai-frame/types'
 import { motion } from 'framer-motion'
 import { memo } from 'react'
 

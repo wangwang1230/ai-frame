@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { Globe, Link2, Loader2, Puzzle, Repeat, Share2, Sigma } from 'lucide-react'
 import type { Session } from '@ai-frame/types'
