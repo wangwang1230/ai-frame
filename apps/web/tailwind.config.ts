@@ -1,4 +1,4 @@
-﻿import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss'
 import preset from '@ai-frame/config/tailwind-preset'
 
 const config: Config = {

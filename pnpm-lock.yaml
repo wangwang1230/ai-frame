@@ -1,0 +1,194 @@
+lockfileVersion: '6.0'
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+importers:
+  .:
+    devDependencies:
+      eslint:
+        specifier: '^8.57.0'
+        version: '8.57.1'
+      prettier:
+        specifier: '^3.2.5'
+        version: '3.6.2'
+      turbo:
+        specifier: '^1.12.3'
+        version: '1.13.4'
+      typescript:
+        specifier: '^5.4.5'
+        version: '5.9.3'
+  'apps/web':
+    dependencies:
+      '@ai-frame/config':
+        specifier: 'workspace:*'
+        version: 'link:../../packages/config'
+      '@ai-frame/domain':
+        specifier: 'workspace:*'
+        version: 'link:../../packages/domain'
+      '@ai-frame/infra':
+        specifier: 'workspace:*'
+        version: 'link:../../packages/infra'
+      '@ai-frame/types':
+        specifier: 'workspace:*'
+        version: 'link:../../packages/types'
+      '@ai-frame/ui':
+        specifier: 'workspace:*'
+        version: 'link:../../packages/ui'
+      '@tanstack/react-query':
+        specifier: '^5.45.0'
+        version: '5.45.0'
+      clsx:
+        specifier: '^2.1.0'
+        version: '2.1.0'
+      'lucide-react':
+        specifier: '^0.378.0'
+        version: '0.378.0'
+      nanoid:
+        specifier: '^5.0.7'
+        version: '5.0.7'
+      next:
+        specifier: '14.2.3'
+        version: '14.2.3'
+      react:
+        specifier: '18.2.0'
+        version: '18.2.0'
+      'react-dom':
+        specifier: '18.2.0'
+        version: '18.2.0'
+      sonner:
+        specifier: '^1.5.0'
+        version: '1.5.0'
+      zustand:
+        specifier: '^4.5.2'
+        version: '4.5.2'
+    devDependencies:
+      '@types/node':
+        specifier: '20.12.7'
+        version: '20.12.7'
+      '@types/react':
+        specifier: '18.2.50'
+        version: '18.2.50'
+      '@types/react-dom':
+        specifier: '18.2.18'
+        version: '18.2.18'
+      autoprefixer:
+        specifier: '^10.4.19'
+        version: '10.4.19'
+      eslint:
+        specifier: '^8.57.0'
+        version: '8.57.1'
+      'eslint-config-next':
+        specifier: '14.2.3'
+        version: '14.2.3'
+      postcss:
+        specifier: '^8.4.38'
+        version: '8.4.38'
+      tailwindcss:
+        specifier: '^3.4.6'
+        version: '3.4.6'
+      typescript:
+        specifier: '^5.4.5'
+        version: '5.9.3'
+  'apps/mobile':
+    dependencies:
+      '@ai-frame/domain':
+        specifier: 'workspace:*'
+        version: 'link:../../packages/domain'
+      '@ai-frame/types':
+        specifier: 'workspace:*'
+        version: 'link:../../packages/types'
+      expo:
+        specifier: '^51.0.0'
+        version: '51.0.0'
+      'expo-status-bar':
+        specifier: '~2.0.0'
+        version: '2.0.0'
+      react:
+        specifier: '18.2.0'
+        version: '18.2.0'
+      'react-native':
+        specifier: '0.74.1'
+        version: '0.74.1'
+    devDependencies:
+      '@babel/core':
+        specifier: '^7.24.4'
+        version: '7.24.4'
+      typescript:
+        specifier: '^5.4.5'
+        version: '5.9.3'
+  'apps/desktop':
+    dependencies:
+      '@tauri-apps/api':
+        specifier: '^1.5.4'
+        version: '1.5.4'
+    devDependencies:
+      '@tauri-apps/cli':
+        specifier: '^1.5.9'
+        version: '1.5.9'
+      typescript:
+        specifier: '^5.4.5'
+        version: '5.9.3'
+      vite:
+        specifier: '^5.2.8'
+        version: '5.2.8'
+  'packages/domain':
+    dependencies:
+      '@ai-frame/types':
+        specifier: 'workspace:*'
+        version: 'link:../types'
+      immer:
+        specifier: '^10.0.4'
+        version: '10.0.4'
+      nanoid:
+        specifier: '^5.0.7'
+        version: '5.0.7'
+      zustand:
+        specifier: '^4.5.2'
+        version: '4.5.2'
+  'packages/types': {}
+  'packages/infra':
+    dependencies:
+      '@ai-frame/types':
+        specifier: 'workspace:*'
+        version: 'link:../types'
+      'eventsource-parser':
+        specifier: '^3.0.6'
+        version: '3.0.6'
+      ky:
+        specifier: '^1.2.4'
+        version: '1.2.4'
+  'packages/ui':
+    dependencies:
+      '@ai-frame/types':
+        specifier: 'workspace:*'
+        version: 'link:../types'
+      clsx:
+        specifier: '^2.1.0'
+        version: '2.1.0'
+      'framer-motion':
+        specifier: '^11.0.3'
+        version: '11.0.3'
+      react:
+        specifier: '^18.2.0'
+        version: '18.2.0'
+    peerDependencies:
+      react:
+        specifier: '^18.2.0'
+        version: '18.2.0'
+      'react-dom':
+        specifier: '^18.2.0'
+        version: '18.2.0'
+  'packages/plugin-host':
+    dependencies:
+      '@ai-frame/types':
+        specifier: 'workspace:*'
+        version: 'link:../types'
+      nanoevents:
+        specifier: '^9.1.0'
+        version: '9.1.0'
+  'packages/config':
+    dependencies:
+      tailwindcss:
+        specifier: '^3.4.6'
+        version: '3.4.6'
+packages: {}

@@ -1,4 +1,4 @@
-﻿# AI Frame · Architecture Notes
+# AI Frame · Architecture Notes
 
 ## Quick Start
 

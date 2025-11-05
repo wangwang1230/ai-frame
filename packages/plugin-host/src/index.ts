@@ -1,4 +1,4 @@
-﻿import { createNanoEvents } from 'nanoevents'
+import { createNanoEvents } from 'nanoevents'
 import type { InstalledTool, ToolResultPayload, ToolSpec } from '@ai-frame/types'
 
 export interface PluginManifest extends ToolSpec {

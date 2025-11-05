@@ -1,4 +1,4 @@
-﻿node_modules
+node_modules
 .pnpm-store
 .next
 .turbo
@@ -6,7 +6,6 @@ out
 build
 dist
 .env*
-pnpm-lock.yaml
 package-lock.json
 yarn.lock
 .DS_Store

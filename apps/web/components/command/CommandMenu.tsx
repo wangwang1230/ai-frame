@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useEffect, useState } from 'react'
 import { Command, GitBranch, MessageCircle, Repeat2, Send } from 'lucide-react'

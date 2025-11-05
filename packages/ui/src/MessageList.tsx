@@ -1,4 +1,4 @@
-﻿import type { Message } from '@ai-frame/types'
+import type { Message } from '@ai-frame/types'
 import clsx from 'clsx'
 import { Fragment } from 'react'
 import { useRenderer } from './RendererProvider'

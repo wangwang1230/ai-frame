@@ -1,4 +1,4 @@
-﻿import type { CommandInput } from '@ai-frame/types'
+import type { CommandInput } from '@ai-frame/types'
 import type { SessionStore } from './sessionStore'
 
 export interface CommandBus {

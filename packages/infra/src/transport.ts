@@ -1,4 +1,4 @@
-﻿import { createParser, type ParsedEvent } from 'eventsource-parser'
+import { createParser, type ParsedEvent } from 'eventsource-parser'
 import type {
   StreamPromptInput,
   StreamingDelta,
